@@ -1,0 +1,91 @@
+```css
+/* Estilos generales */
+body {
+    background: darkblue;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* Encabezado */
+#encabezado {
+    background: darkblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* Título */
+#encabezado h1 {
+    margin: 0;
+}
+
+
+/* Texto resaltado con span */
+span {
+    color: #ff6f00;
+    font-weight: bold;
+}
+
+
+/* Secciones */
+.seccion {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* Títulos de las secciones */
+.seccion h2 {
+    color: #1f4e79;
+}
+
+
+/* Lista */
+.seccion li {
+    margin: 10px;
+}
+
+
+/* Imagen */
+.seccion img {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+/* Celdas de la tabla */
+th,
+td {
+    border: 1px solid #555555;
+    padding: 12px;
+    text-align: left;
+}
+
+
+/* Encabezado de la tabla */
+th {
+    background: #1f4e79;
+    color: white;
+}
+
+
+
+```
