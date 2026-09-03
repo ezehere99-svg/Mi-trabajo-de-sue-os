@@ -1,100 +1,62 @@
+```css
+body {
+    background: darkblue;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
 
-<!DOCTYPE html>
-<html lang="es">
+#encabezado {
+    background: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#encabezado h1 {
+    margin: 0;
+}
 
-    <title>Mi trabajo de sueños</title>
+span {
+    color: #ffd700;
+}
 
-    <link rel="stylesheet" href="estilos.css">
-</head>
+.seccion {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+}
 
-<body>
+.seccion h2 {
+    color: #1f4e79;
+}
 
-    <div id="encabezado">
+li {
+    margin: 10px;
+}
 
-        <h1>Mi trabajo de sueños</h1>
+img {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
 
-        <p>
-            Mi trabajo de sueños es ser
-            <span>desarrollador de software</span>.
-            Me gusta resolver problemas y aprender cosas nuevas.
-            Me gustaría crear aplicaciones y sistemas que ayuden
-            a las personas y a las empresas.
-        </p>
+table {
+    width: 100%;
+    margin-top: 20px;
+}
 
-    </div>
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
 
-
-    <div class="seccion">
-
-        <h2>¿Por qué me gustaría tener este trabajo?</h2>
-
-        <ul>
-            <li>Me gusta resolver problemas.</li>
-
-            <li>Me gusta la parte gráfica y darle estructura a las páginas para que se vean bien y sean interactivas.</li>
-
-            <li>Me gustaría tener mi propio negocio algún día.</li>
-
-            <li>Me gustaría trabajar desde casa y tener libertad para organizar mi tiempo.</li>
-        </ul>
-
-    </div>
-
-
-    <div class="seccion">
-
-        <h2>Pasos para conseguir este trabajo</h2>
-
-        <table>
-
-            <tr>
-                <th>Paso</th>
-                <th>Requisito</th>
-                <th>Descripción</th>
-            </tr>
-
-            <tr>
-                <td>1</td>
-                <td>Aprender programación</td>
-                <td>Aprender HTML, CSS, JavaScript y otros lenguajes.</td>
-            </tr>
-
-            <tr>
-                <td>2</td>
-                <td>Practicar</td>
-                <td>Crear páginas y pequeños proyectos.</td>
-            </tr>
-
-            <tr>
-                <td>3</td>
-                <td>Aprender más</td>
-                <td>Conocer nuevos lenguajes y herramientas.</td>
-            </tr>
-
-            <tr>
-                <td>4</td>
-                <td>Buscar oportunidades</td>
-                <td>Buscar trabajo o empezar un proyecto propio.</td>
-            </tr>
-
-        </table>
-
-    </div>
-
-
-    <div class="seccion">
-
-        <h2>Imagen relacionada con mi trabajo</h2>
-
-        <img src="pexels-cesar-gaviria-232160-36571389.jpg" alt="Persona programando">
-
-    </div>
-
-</body>
-
-</html>
+th {
+    background: #1f4e79;
+    color: white;
+}
 ```
